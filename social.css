@@ -1,159 +1,100 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
+/* icon container with excessive gradient */
 
-body {
-  font-family: 'Lato', sans-serif;
-  color: #FFF;
-  background: #322f30;
-  -webkit-font-smoothing: antialiased;
+.socials {
+  display: inline-block;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
 }
+
+/* Icons */
 
 a {
-  text-decoration: none;
-  color: #fff;
+  color:#fff;
+  background: #DB6E82;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:40px;
+  height:28px;
+  padding-top:12px;
+  margin:0 2px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
 }
 
-p > a:hover{
-  color: #d9d9d9;
-  text-decoration:  underline;
+a:hover {
+  background: #ef92a3;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin:  1% 0 1% 0;
+/* pop-up text */
+
+a span {
+  color:#666;
+  position:absolute;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:2px;
+  background:#fff;
+  visibility:hidden;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+/* pop-up text arrow */
 
-
-._12 {
-  font-size: 1.2em;
-
+a span:before {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
 }
 
-._14 {
-  font-size: 1.4em;
+/* text pops up when icon is in hover state */
 
+a:hover span {
+  bottom:50px;
+  visibility:visible;
 }
 
-ul {
-  padding:0;
-  list-style: none;
+/* font awesome icons */
+
+a:nth-of-type(1):before {
+content:'\f09a';
 }
-
-.footer-social-icons {
-  width: 350px;
-  display:block;
-  margin: 0 auto;
+a:nth-of-type(2):before {
+content:'\f099';
 }
-
-.social-icon {
-  color: #fff;
+a:nth-of-type(3):before {
+content:'\f0d5';
 }
-
-ul.social-icons { 
-  margin-top: 10px;
-
+a:nth-of-type(4):before {
+content:'\f113';
 }
-
-.social-icons li {
-  vertical-align: top;
-  display: inline;
+a:nth-of-type(5):before {
+content:'\f17d';
 }
-
-.social-icons a {
-  color: #fff; 
-  text-decoration: none;
-}
-
-
-.fa-facebook {
-  padding:10px 14px 7px 14px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-
-.fa-facebook:hover {
-  background-color: #3d5b99;
-}
-
-.fa-twitter {
-  padding:10px 10px 7px 10px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-
-.fa-twitter:hover {
-  background-color: #00aced;
-}
-
-.fa-rss {
-  padding:10px 12px 7px 12px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-
-.fa-rss:hover {
-  background-color: #eb8231;
-}
-
-.fa-youtube {
-  padding:10px 12px 7px 11px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-
-.fa-youtube:hover {
-  background-color: #e64a41;
-}
-
-.fa-linkedin {
-  padding:10px 11px 8px 11px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .3s;
-    background-color: #322f30;
-}
-
-.fa-linkedin:hover {
-  background-color: #0073a4;
-}
-
-.fa-google-plus {
-  padding:10px 10px 7px 10px;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    width: 40px;
-
-}
-
-.fa-google-plus:hover {
-  background-color: #e25714;
-  border-width: 40px;
+a:nth-of-type(6):before {
+content:'\f1cb';
 }
