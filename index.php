@@ -64,7 +64,7 @@
 </div>
 
 <div id="slide4" class="slide header">
-    <h1>The End</h1>
+    <h1></h1>
 </div>
 
 

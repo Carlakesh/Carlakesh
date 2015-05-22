@@ -108,7 +108,7 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("http://www.pulsarmedia.eu/data/media/3/Sade%20By%20H2Okerim.jpg");
+  background-image: url("https://static.pexels.com/photos/6525/flowers-garden-herbs-flowerbed-medium.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
@@ -119,12 +119,12 @@ img:last-of-type {
 }
 
 #slide3:before {
-  background-image: url("http://farm8.staticflickr.com/7109/7568025270_c0ca93ea5c_z.jpg");
+  background-image: url("https://static.pexels.com/photos/6499/mountains-medium.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
   text-align: center;
 }
 
 #slide4 {
-  background: #222;
+  background-image: url("http://videos.web-03.net/mrbool/articles/RicardoArrigoni/Parallax/Parallax1.jpg");
 }
