@@ -6,7 +6,7 @@
   position:absolute;
   top:50%;
   left:50%;
-  -ms-transform:translate(-50%,-50%);
+  -ms-transform:translate(-10%,-50%);
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
 }
@@ -15,15 +15,15 @@
 
 a {
   color:#fff;
-  background: #DB6E82;
+  background: #BF79C6;
   border-radius:4px;
   text-align:center;
   text-decoration:none;
   font-family:fontawesome;
   position: relative;
   display: inline-block;
-  width:40px;
-  height:28px;
+  width:80px;
+  height:46px;
   padding-top:12px;
   margin:0 2px;
   -o-transition:all .5s;
@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  background: #ef92a3;
+  background: white;
 }
 
 /* pop-up text */
@@ -92,9 +92,4 @@ content:'\f0d5';
 a:nth-of-type(4):before {
 content:'\f113';
 }
-a:nth-of-type(5):before {
-content:'\f17d';
-}
-a:nth-of-type(6):before {
-content:'\f1cb';
-}
+

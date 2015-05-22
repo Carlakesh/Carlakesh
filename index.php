@@ -9,42 +9,37 @@
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+  <link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <header>
 <link rel="stylesheet" type="text/css" href="main.js">
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="parallax.css">
-<!-- <link rel="stylesheet" type="text/css" href="social.css"> --> 
+ <link rel="stylesheet" type="text/css" href="social.css"> 
+
 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-
+</header>
 
 
 <body>
- <div class="socials">
-  <a href="#"><span>Facebook</span></a>
-  <a href="#"><span>Twitter</span></a>
-  <a href="#"><span>Google+</span></a>
-  <a href="#"><span>Github</span></a>
-  <a href="#"><span>Dribble</span></a>
-  <a href="#"><span>CodePen</span></a>
-</div>
+ 
 
 <div id="title" class="slide header">
   <h1>CARLA KESH</h1>
   <div id="title2">  PRE-DEVELOPER  ·  STUDENT </div>
 </div>
-<!-- my social networks lol -->
-<div class="footer-social-icons">
-          
-                <ul class="social-icons">
-                 <h1> <li><a href="https://facebook.com" class="social-icon"> <i class="fa fa-facebook"></i></a></li> </h1>
-                  <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-  
-                </ul>
-              </div>
+
+<div class="socials">
+  <a href="https://facebook.com/carla.keshishian"><span>Facebook</span></a>
+  <a href="https://twitter.com/carlakesh"><span>Twitter</span></a>
+  <a href="https://plus.google.com/u/0/103398563166234981645"><span>Google+</span></a>
+  <a href="https://github.com/carlakesh"><span>Github</span></a>
+</div>
 
 <div id="slide1" class="slide">
   <div class="parallaxtitle">
@@ -75,5 +70,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/path/to/parallax.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>                                		
