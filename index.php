@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css" href="main.js">
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="parallax.css">
+<link rel="stylesheet" type="text/css" href="social.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
@@ -23,6 +24,15 @@
   <h1>CARLA KESH</h1>
   <div id="title2">  PRE-DEVELOPER  ·  STUDENT </div>
 </div>
+<!-- my social networks lol -->
+<div class="footer-social-icons">
+          
+                <ul class="social-icons">
+                 <h1> <li><a href="https://facebook.com" class="social-icon"> <i class="fa fa-facebook"></i></a></li> </h1>
+                  <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+  
+                </ul>
+              </div>
 
 <div id="slide1" class="slide">
   <div class="title">
