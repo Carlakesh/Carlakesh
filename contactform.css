@@ -1,0 +1,33 @@
+body {
+  background: lightblue no-repeat center center
+
+fixed;
+  -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+}
+
+.transparent_box {
+  position: absolute;
+  height: 450px;
+  width: 600px;
+  top: 5%;
+  right: 45%;
+  margin-right: -175px;
+  background-color: black; 
+  opacity: .5;
+  border: 1px solid black;
+  filter: alpha(opacity=90); 
+  border-radius: 10px; 
+}
+
+.transparent_box h3, h4 {
+  letter-spacing: .7px;
+  word-spacing: 2.5px;
+  text-align: center;
+  color: white;
+}

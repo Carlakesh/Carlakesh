@@ -50,3 +50,4 @@ $(document).ready(function() {
 });
 
 $('.parallax-window').parallax({imageSrc: 'http://pulpypics.com/wp-content/uploads/2014/08/tumblr-25.jpg'});
+

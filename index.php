@@ -19,6 +19,7 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="parallax.css">
  <link rel="stylesheet" type="text/css" href="social.css"> 
+  <link rel="stylesheet" type="text/css" href="contactform.css"> 
 
 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -65,6 +66,22 @@
 
 <div id="slide4" class="slide header">
     <h1></h1>
+
+    <div class="transparent_box">
+<h3> Let's get in touch! </h2>
+
+ <form action="MAILTO:Cocokechichian@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="40"><br><br>
+<input type="submit" value="Send">
+</form>
+
+</div>
+
 </div>
 
 
