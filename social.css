@@ -5,7 +5,7 @@
   display: inline-block;
   position:absolute;
   top:50%;
-  left:50%;
+  left:51%;
   -ms-transform:translate(-10%,-50%);
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
@@ -13,7 +13,7 @@
 
 /* Icons */
 
-a {
+#a {
   color:#fff;
   background: #BF79C6;
   border-radius:4px;
@@ -33,13 +33,13 @@ a {
    -webkit-font-smoothing: antialiased;
 }
 
-a:hover {
+#a:hover {
   background: white;
 }
 
 /* pop-up text */
 
-a span {
+#a span {
   color:#666;
   position:absolute;
   bottom:0;
@@ -59,7 +59,7 @@ a span {
 
 /* pop-up text arrow */
 
-a span:before {
+#a span:before {
   content:'';
   width: 0; 
   height: 0; 
@@ -73,23 +73,23 @@ a span:before {
 
 /* text pops up when icon is in hover state */
 
-a:hover span {
+#a:hover span {
   bottom:50px;
   visibility:visible;
 }
 
 /* font awesome icons */
 
-a:nth-of-type(1):before {
+#a:nth-of-type(1):before {
 content:'\f09a';
 }
-a:nth-of-type(2):before {
+#a:nth-of-type(2):before {
 content:'\f099';
 }
-a:nth-of-type(3):before {
+#a:nth-of-type(3):before {
 content:'\f0d5';
 }
-a:nth-of-type(4):before {
+#a:nth-of-type(4):before {
 content:'\f113';
 }
 

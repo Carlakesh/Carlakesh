@@ -12,24 +12,33 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
   <link href="css/font-awesome.min.css" rel="stylesheet">
-</head>
-
-<header>
-<link rel="stylesheet" type="text/css" href="main.js">
+  <link rel="stylesheet" type="text/css" href="main.js">
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="parallax.css">
  <link rel="stylesheet" type="text/css" href="social.css"> 
   <link rel="stylesheet" type="text/css" href="contactform.css"> 
-  <link rel="stylesheet" type="text/css" href="nav.css">
-
-
+ <link rel="stylesheet" type="text/css" href="nav.css"> 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
 
+<header>
+
+
+<div id="stickynavbar">
+<nav>
+<ul id="stickynavbar"> 
+  <li class="current"><a href="#slide1">Section 1</a></li>
+  <li><a href="#slide2">Section 2</a></li>
+  <li><a href="#slide3">Section 3</a></li>
+</ul>
+</nav>
+</div>
 </header>
 
 
 <body>
- 
+
+
 
 <div id="title" class="slide header">
   <h1 class="myfont"> CARLA KESH</h1>
@@ -37,10 +46,10 @@
 </div>
 
 <div class="socials">
-  <a href="https://facebook.com/carla.keshishian"><span>Facebook</span></a>
-  <a href="https://twitter.com/carlakesh"><span>Twitter</span></a>
-  <a href="https://plus.google.com/u/0/103398563166234981645"><span>Google+</span></a>
-  <a href="https://github.com/carlakesh"><span>Github</span></a>
+  <a id="a" href="https://facebook.com/carla.keshishian"><span>Facebook</span></a>
+  <a id="a" href="https://twitter.com/carlakesh"><span>Twitter</span></a>
+  <a id="a" href="https://plus.google.com/u/0/103398563166234981645"><span>Google+</span></a>
+  <a id="a" href="https://github.com/carlakesh"><span>Github</span></a>
 </div>
 
 <div id="slide1" class="slide">
@@ -86,6 +95,9 @@ Message:<br>
 </div>
 
 
+<script src="jquery.js"></script>
+<script src="jquery.scrollTo.js"></script>
+<script src="jquery.nav.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/path/to/parallax.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>

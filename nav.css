@@ -1,0 +1,48 @@
+/* Spacing & Border of First Link in Navigation */
+.tabs-inner .section:first-child ul {
+margin-top: 0px;
+border: 0 solid #eeeeee;
+}
+ 
+/* Background & Border of Navigation */
+.tabs-inner .widget ul {
+background: #999999;
+border: 0px solid #eeeeee;
+text-align: center  !important;
+}
+ 
+/* Font, Colour & Border of Links */
+.tabs-inner .widget li a {
+font: normal normal 14px Arvo;
+color: #333333;
+border: 0px solid #ffffff;
+}
+ 
+/* Font & Colour of Rollover Links */
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #eeeeee;
+background-color: #ffffff;
+text-decoration: none;
+}
+ 
+/* Centre Navigation */
+.tabs .widget li, .tabs .widget li{
+display: inline;
+float: none;} 
+
+#stickynavbar { 
+ position: fixed;
+  z-index: 10;
+ top: 0px;
+  left: 0px; 
+  z-index: 9999; 
+  width:100%;
+  height: 100px;
+  background-color: #00a087;
+
+}
+
+
+  header {    
+    margin-top: 50px; 
+  }
