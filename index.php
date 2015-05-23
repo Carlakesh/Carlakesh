@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title> Carla Kesh | web develop </title>
+	<title> Carla Kesh | Web Develop </title>
 <link rel="icon" type="iamge/png" href="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-alphanumeric/070545-glossy-black-3d-button-icon-alphanumeric-letter-c.png">
 <meta charset="UTF-8">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
@@ -20,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="parallax.css">
  <link rel="stylesheet" type="text/css" href="social.css"> 
   <link rel="stylesheet" type="text/css" href="contactform.css"> 
+  <link rel="stylesheet" type="text/css" href="nav.css">
 
 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -28,10 +29,32 @@
 
 
 <body>
- 
+ <div class="m1 menu">
+    <div id="menu-center">
+        <ul>
+            <li><a class="active" href="#home">Home</a>
+
+            </li>
+            <li><a href="#work">Work</a>
+
+            </li>
+            <li><a href="#about">About</a>
+
+            </li>
+            <li><a href="#contact">Contact</a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="home"></div>
+<div id="portfolio"></div>
+<div id="about"></div>
+
+
 
 <div id="title" class="slide header">
-  <h1>CARLA KESH</h1>
+  <h1 class="myfont"> CARLA KESH</h1>
   <div id="title2">  PRE-DEVELOPER  ·  STUDENT </div>
 </div>
 
@@ -68,16 +91,16 @@
     <h1></h1>
 
     <div class="transparent_box">
-<h3> Let's get in touch! </h2>
+<h3> Let's get in touch! </h3>
 
  <form action="MAILTO:Cocokechichian@gmail.com" method="post" enctype="text/plain">
 Name:<br>
 <input type="text" name="name" value="your name"><br>
 E-mail:<br>
 <input type="text" name="mail" value="your email"><br>
-Comment:<br>
-<input type="text" name="comment" value="your comment" size="40"><br><br>
-<input type="submit" value="Send">
+Message:<br>
+<input type="text" name="comment" value="your message" size="40"><br><br>
+<input id="submit" type="submit" value="Send">
 </form>
 
 </div>
@@ -90,4 +113,8 @@ Comment:<br>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
 </body>
+</script> 
+<footer>
+  
+</footer>
 </html>                                		

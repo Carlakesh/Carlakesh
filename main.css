@@ -1,6 +1,5 @@
-body{
-	background-color: pink;
-}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
 
 h2{
     margin: 0;     
@@ -39,3 +38,9 @@ h2{
     min-height: 400px;
     background: transparent;
 }
+
+.myfont{
+    font-family: "Ubuntu", sans-serif;
+}
+
+

@@ -108,23 +108,23 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("https://static.pexels.com/photos/6525/flowers-garden-herbs-flowerbed-medium.jpg");
+  background-image: url("http://nainoashizuru.com/photography/images/slide_1.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url("https://static.pexels.com/photos/6499/mountains-medium.jpg");
+  background-image: url("http://nainoashizuru.com/photography/images/panorama.jpg");
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://videos.web-03.net/mrbool/articles/RicardoArrigoni/Parallax/Parallax1.jpg");
+  background-image: url("http://nainoashizuru.com/photography/images/photo_2.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
   text-align: center;
 }
 
 #slide4 {
-  background-image: url(" http://wallpapers55.com/wp-content/uploads/2013/10/iOS-7-Wallpaper-Parallax-06-1040x600.jpg");
+  background-image: url("http://wallpapers55.com/wp-content/uploads/2013/10/iOS-7-Wallpaper-Parallax-06-1040x600.jpg");
 }
