@@ -29,29 +29,7 @@
 
 
 <body>
- <div class="m1 menu">
-    <div id="menu-center">
-        <ul>
-            <li><a class="active" href="#home">Home</a>
-
-            </li>
-            <li><a href="#work">Work</a>
-
-            </li>
-            <li><a href="#about">About</a>
-
-            </li>
-            <li><a href="#contact">Contact</a>
-
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="home"></div>
-<div id="portfolio"></div>
-<div id="about"></div>
-
-
+ 
 
 <div id="title" class="slide header">
   <h1 class="myfont"> CARLA KESH</h1>
