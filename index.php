@@ -21,23 +21,17 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 
-<header>
 
-
-<div id="stickynavbar">
-<nav>
-<ul id="stickynavbar"> 
+<body>
+ <div id="stickynavbar"> 
+<nav id="stickynavbar">
+<ul class="nav"> 
   <li class="current"><a href="#slide1">Section 1</a></li>
   <li><a href="#slide2">Section 2</a></li>
   <li><a href="#slide3">Section 3</a></li>
 </ul>
 </nav>
-</div>
-</header>
-
-
-<body>
-
+ </div> 
 
 
 <div id="title" class="slide header">

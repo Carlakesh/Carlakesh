@@ -1,34 +1,4 @@
-/* Spacing & Border of First Link in Navigation */
-.tabs-inner .section:first-child ul {
-margin-top: 0px;
-border: 0 solid #eeeeee;
-}
- 
-/* Background & Border of Navigation */
-.tabs-inner .widget ul {
-background: #999999;
-border: 0px solid #eeeeee;
-text-align: center  !important;
-}
- 
-/* Font, Colour & Border of Links */
-.tabs-inner .widget li a {
-font: normal normal 14px Arvo;
-color: #333333;
-border: 0px solid #ffffff;
-}
- 
-/* Font & Colour of Rollover Links */
-.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
-color: #eeeeee;
-background-color: #ffffff;
-text-decoration: none;
-}
- 
-/* Centre Navigation */
-.tabs .widget li, .tabs .widget li{
-display: inline;
-float: none;} 
+
 
 #stickynavbar { 
  position: fixed;
@@ -38,11 +8,46 @@ float: none;}
   z-index: 9999; 
   width:100%;
   height: 100px;
-  background-color: #00a087;
-
-}
+  background-color: black;
+  opacity: .9;
+  }
 
 
   header {    
     margin-top: 50px; 
   }
+
+ 
+
+.nav {
+  float: right; 
+  padding: 20px 0 0 0;
+}
+
+li {
+  float: left; /* makes list horizontal */
+  list-style-type: none;
+  margin: 0 0 0 30px; /* separates 'buttons' */
+}
+
+a {
+  padding: 10px 15px; /* makes target area bigger */
+  color: #333; /* rgba backup */
+  color: rgba(255,255,255, 0.8);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #fff;
+  background: #fff; /* rgba backup */
+  background: rgba(255,255,255, 0.2);
+  -webkit-border-radius: 4px; /* safari & chrome */
+  -moz-border-radius: 4px; /* firefox */
+  border-radius: 4px; /* futureproof */
+}

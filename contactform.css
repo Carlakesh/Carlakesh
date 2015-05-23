@@ -1,5 +1,5 @@
 body {
-  background-image: url("http://wallpapers55.com/wp-content/uploads/2013/10/iOS-7-Wallpaper-Parallax-06-1040x600.jpg");
+  background-color: black;
 
 fixed;
   -webkit-background-size:cover;
@@ -15,7 +15,7 @@ fixed;
   position: absolute;
   height: 450px;
   width: 600px;
-  top: 5%;
+  top: 25%;
   right: 45%;
   margin-right: -175px;
   background-color: black; 
