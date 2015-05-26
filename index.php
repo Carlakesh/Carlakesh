@@ -27,8 +27,9 @@
 <nav id="stickynavbar">
 <ul class="nav"> 
   <li class="current"><a href="#slide1">Section 1</a></li>
-  <li><a href="#slide2">Section 2</a></li>
-  <li><a href="#slide3">Section 3</a></li>
+  <li class="current"><a href="#slide2">Section 2</a></li>
+  <li class="current"><a href="#slide3">Section 3</a></li>
+  <li class="current"><a href="#slide4">Section 4</a></li>
 </ul>
 </nav>
  </div> 
