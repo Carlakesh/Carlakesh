@@ -140,6 +140,15 @@ border-style: double;
   font-family: 'Dosis', sans-serif;
 }
 
+#title1{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  border-color: black;
+  border-style: double;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 #slide1:before {
   background-image: url("http://nainoashizuru.com/photography/images/slide_1.jpg");
   transform: translateZ(-1px) scale(2);
