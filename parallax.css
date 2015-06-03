@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,600);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400italic);
 
 html {
   height: 100%;
@@ -101,29 +102,36 @@ margin-left: 20px;
 
 }
 
+#a1{
+  color: black;
+}
 .K1{
   border-style: double;
   border-color: black;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.6;
   text-align: center;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
 }
 
 .K2{
 border-style: double;
   border-color: black;
    background-color: white;
-  opacity: 0.5;
+  opacity: 0.6;
   text-align: center;
+  font-family: 'Droid Serif', serif;
+
 }
 
 .K3{
 border-style: double;
   border-color: black;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.6;
   text-align: center;
-
+font-family: 'Droid Serif', serif;
 }
 #title {
   background-image: url("http://img3.themebin.com/1920x1080/red_sky_widescreen.jpg");
@@ -131,7 +139,7 @@ border-style: double;
    padding-top: 100px;
    font-family: 'Dosis', sans-serif;
    color: white;
-   font-size: 20px;
+   font-size: 20px;  
 
 }
 
@@ -143,7 +151,7 @@ border-style: double;
 #title1{
   font-family: 'Dosis', sans-serif;
   text-align: center;
-  border-color: black;
+  border-color: white;
   border-style: double;
   margin-bottom: 20px;
   font-size: 20px;
@@ -168,98 +176,376 @@ border-style: double;
 }
 
 #slide4 {
-  background-image: url("http://wallpapers55.com/wp-content/uploads/2013/10/iOS-7-Wallpaper-Parallax-06-1040x600.jpg");
+  background-image: url("http://nainoashizuru.com/photography/images/slide_1.jpg");
 }
 
 
+ 
+
+   @media only screen and (min-width: 320px) and (max-width: 989px) {
+
+    #slide1:before {
+  background-image: url("http://oi45.tinypic.com/144aftl.jpg");
+    background-attachment: scroll !important;
 }
- @media screen and (max-width:959px){
-    #title{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
 
-    #slide1{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+#slide2 {
+  background-image: url("http://static.tumblr.com/iyodnno/d9nmcl25r/13_steptoe_pink_cloud_sunset_1.jpg");
+  background-attachment: fixed;
+   background-attachment: scroll !important;
+}
 
-    #slide2{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
-    #slide3{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+#slide3:before {
+  background-image: url("http://oi45.tinypic.com/144aftl.jpg");
+  text-align: center;
+   background-attachment: scroll !important;
+}
 
-    #slide4 {
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+#slide4 {
+  background-image: url("http://41.media.tumblr.com/b22158c3a00ce83625e6cb863912e577/tumblr_nem0ulfvAu1silzgvo1_500.jpg");
+   background-attachment: scroll !important;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
 
 
-   } 
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
 
-    @media screen and (max-width:568px){
+h1 {
+   font-size: 250%
+}
 
-  #title{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
 
-    #slide1{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7);
+  transform-style: inherit;
+}
 
-    #slide2{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
-    #slide3{
-      width: 100%;
-     background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
-    #slide4 {
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
 
-    img {
-      width: 100%;
-    }
+.title{
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
 
-    }  
-    @media screen and (max-width:320px){
+.parallaxtitle {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  margin-left: 250px;
+}
 
-  #title{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
 
-    #slide1{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
 
-    #slide2{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
-    #slide3{
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
-    #slide4 {
-      width: 100%;
-      background:url("http://www.drodd.com/images10/cool-wallpapers27.jpg");
-    }
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
 
-    img {
-      width: 100%;
-    }
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
 
-    }  
-    
-    
+img{
+width: 400px;
+height: 300px;
+position: center;
+margin-left: 20px;
+}
+
+.carla1{
+  
+}
+
+.carla2{
+ 
+}
+
+.carla3{
+
+}
+
+#a1{
+  color: black;
+}
+.K1{
+  border-style: double;
+  border-color: black;
+  background-color: white;
+  opacity: 0.6;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+}
+
+.K2{
+border-style: double;
+  border-color: black;
+   background-color: white;
+  opacity: 0.6;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+
+}
+
+.K3{
+border-style: double;
+  border-color: black;
+  background-color: white;
+  opacity: 0.6;
+  text-align: center;
+font-family: 'Droid Serif', serif;
+}
+#title {
+  background-image: url("http://29.media.tumblr.com/tumblr_m2aeadUt5C1qfji2jo1_500.jpg");
+   background-attachment: fixed;  
+   padding-top: 100px;
+   font-family: 'Dosis', sans-serif;
+   color: white;
+   font-size: 20px;  
+
+}
+
+#title2{
+  padding-bottom: 120px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#title1{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  border-color: white;
+  border-style: double;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+
+fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+}
+
+.transparent_box {
+  position: absolute;
+  height: 450px;
+  width: 600px;
+  top: 25%;
+  right: 45%;
+  margin-right: 205px;
+  background-color: black; 
+  opacity: .6;
+  border: 1px solid black;
+  filter: alpha(opacity=90); 
+  border-radius: 10px; 
+
+}
+
+.transparent_box h3, h4 {
+  letter-spacing: .7px;
+  word-spacing: 2.5px;
+  text-align: center;
+  color: white;
+}
+.socials {
+  display: inline-block;
+  position:absolute;
+  top:50%;
+  left:51%;
+  -ms-transform:translate(-10%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+/* Icons */
+
+#a {
+  color:#fff;
+  background: #BF79C6;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:80px;
+  height:46px;
+  padding-top:12px;
+  margin:0 2px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
+}
+
+#a:hover {
+  background: white;
+}
+
+/* pop-up text */
+
+#a span {
+  color:#666;
+  position:absolute;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:2px;
+  background:#fff;
+  visibility:hidden;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+#a span:before {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+#a:hover span {
+  bottom:50px;
+  visibility:visible;
+}
+
+/* font awesome icons */
+
+#a:nth-of-type(1):before {
+content:'\f09a';
+}
+#a:nth-of-type(2):before {
+content:'\f099';
+}
+#a:nth-of-type(3):before {
+content:'\f0d5';
+}
+#a:nth-of-type(4):before {
+content:'\f113';
+}
+
+
+.navbar{
+  background-color: black;
+  width: 100%;
+  height: 90px;
+}
+.nav {
+  float: right; 
+  padding: 20px 0 0 0;
+}
+
+li {
+  float: left; /* makes list horizontal */
+  list-style-type: none;
+  margin: 0 0 0 30px; /* separates 'buttons' */
+}
+
+a {
+  padding: 10px 15px; /* makes target area bigger */
+  color: #333; /* rgba backup */
+  color: rgba(255,255,255, 0.8);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #fff;
+  background: #fff; /* rgba backup */
+  background: rgba(255,255,255, 0.2);
+  -webkit-border-radius: 4px; /* safari & chrome */
+  -moz-border-radius: 4px; /* firefox */
+  border-radius: 4px; /* futureproof */
+}
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.myfont{
+    font-family: "Ubuntu", sans-serif;
+}
+
+footer{
+  color: white;
+}
+
+    } 
